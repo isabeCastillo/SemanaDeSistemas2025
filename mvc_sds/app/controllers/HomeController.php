@@ -3,7 +3,7 @@ namespace app\controllers;
 
 class HomeController {
     public function index() {
-        echo $this->view("home", [
+        echo $this->view("HomeView", [
             "title" => "Semana de Sistemas 2025",
             "mensaje" => "Bienvenido al blog de la SDS25"
         ]);
@@ -14,9 +14,7 @@ class HomeController {
         $ruta = "../app/views/$vista.php";
         if(file_exists($ruta)) {
             ob_start();
-            include "../app/views/layout/header.php";
             include $ruta;
-            include "../app/views/layout/footer.php";
             return ob_get_clean();
         } else {
             return "Vista no encontrada: $vista";

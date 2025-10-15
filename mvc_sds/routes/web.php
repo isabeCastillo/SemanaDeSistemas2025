@@ -4,7 +4,7 @@ use app\controllers\HomeController;
 use app\controllers\DiaController;
 use app\controllers\InfoController;
 
-Route::get("/", [HomeController::class, "inicio"]);
+Route::get("/", [HomeController::class, "index"]);
 
 Route::get("/dia1", [DiaController::class, "dia1"]);
 Route::get("/dia2", [DiaController::class, "dia2"]);
