@@ -5,7 +5,7 @@ class DiaController {
     public function dia1() {
         echo $this->view("dia1View", [
             "title" => "Día 1 - Inauguración",
-            "descripcion" => "Inicio oficial de la Semana de Sistemas 2025, presentación de autoridades y primeras ponencias."
+            "descripcion" => "Inicio oficial de la Semana de Sistemas 2025, presentación de autoridades, primeras ponencias y hackathon."
         ]);
     }
     public function dia2() {

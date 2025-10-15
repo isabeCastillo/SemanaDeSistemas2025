@@ -26,7 +26,30 @@
         </div>
     </nav>
     <main>
-
+        <h1><?= $descripcion ?></h1>
+        <div class="main-content-wrapper">
+            <div class="text-column">
+                <p>La Semana de Sistema arrancó con una bienvenida inspiradora a cargo de la Ing. Cesar Franco donde en primer lugar se le dio la bienvenida a la mesa de honor, se canto el himno nacional y para dar por inahurado cada uno de los integrantes de dicha mesa dieron palabras de bienvenida.</p>
+            </div>
+            <div class="carrusel-column">
+                <div class="carrusel-container">
+                    <div class="carrusel">
+                        <span style="--i:1"><img class="sds2025" src="/mvc_sds/src/7.jpeg" alt=""></span>
+                        <span style="--i:2"><video class="sds2025" src="/mvc_sds/src/8.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:3"><img class="sds2025" src="/mvc_sds/src/11.jpeg" alt=""></span>
+                        <span style="--i:4"><video class="sds2025" src="/mvc_sds/src/10.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:5"><img class="sds2025" src="/mvc_sds/src/11.jpeg" alt=""></span>
+                        <span style="--i:6"><video class="sds2025" src="/mvc_sds/src/12.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:7"><img class="sds2025" src="/mvc_sds/src/13.jpeg" alt=""></span>
+                        <span style="--i:8"><img class="sds2025" src="/mvc_sds/src/14.jpeg" alt=""></span>
+                        <span style="--i:9"><img class="sds2025" src="/mvc_sds/src/5.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conferencia1"></div>
+        <div class="conferencia2"></div>
+        <div class="hackathon"></div>
     </main>
     <footer>
         <div class="footer-content">
