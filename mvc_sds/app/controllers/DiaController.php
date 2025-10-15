@@ -3,9 +3,15 @@ namespace app\controllers;
 
 class DiaController {
     public function dia1() {
-        echo $this->view("dias/dia1", [
+        echo $this->view("dia1View", [
             "title" => "Día 1 - Inauguración",
             "descripcion" => "Inicio oficial de la Semana de Sistemas 2025, presentación de autoridades y primeras ponencias."
+        ]);
+    }
+    public function dia2() {
+        echo $this->view("dia2View", [
+            "title" => "Día 2 - Talleres",
+            "descripcion" => "Desarrollo de talleres de manera virtual sobre la toma de decisiones, Laravel y filament y la IA Multimodal."
         ]);
     }
 
@@ -14,9 +20,7 @@ class DiaController {
         $ruta = "../app/views/$vista.php";
         if (file_exists($ruta)) {
             ob_start();
-            include "../app/views/layout/header.php";
             include $ruta;
-            include "../app/views/layout/footer.php";
             return ob_get_clean();
         } else {
             return "Vista no encontrada: $vista";

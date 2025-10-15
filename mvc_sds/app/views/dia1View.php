@@ -26,28 +26,7 @@
         </div>
     </nav>
     <main>
-        <div class="main-content-wrapper">
-            <div class="text-column">
-                <h1><?= $mensaje ?></h1>
-                <p>Blog de la <strong>Semana de Sistemas 2025</strong>, donde estaremos comentando las ponencias, los talleres y actividades recreativas de los 5 días de este evento magnifico que nos deja muchos aprendizajes nuevos.</p>
-                <p>Conoce las diferentes secciones del evento haciendo clic en los enlaces de arriba.</p>
-            </div>
-            <div class="carrusel-column">
-                <div class="carrusel-container">
-                    <div class="carrusel">
-                        <span style="--i:1"><img class="sds2025" src="/mvc_sds/src/1.jpeg" alt=""></span>
-                        <span style="--i:2"><img class="sds2025" src="/mvc_sds/src/2.jpeg" alt=""></span>
-                        <span style="--i:3"><img class="sds2025" src="/mvc_sds/src/3.jpeg" alt=""></span>
-                        <span style="--i:4"><img class="sds2025" src="/mvc_sds/src/4.jpeg" alt=""></span>
-                        <span style="--i:5"><img class="sds2025" src="/mvc_sds/src/5.jpeg" alt=""></span>
-                        <span style="--i:6"><img class="sds2025" src="/mvc_sds/src/6.jpeg" alt=""></span>
-                        <span style="--i:7"><img class="sds2025" src="/mvc_sds/src/7.jpeg" alt=""></span>
-                        <span style="--i:8"><video class="sds2025" src="/mvc_sds/src/8.mp4" controls autoplay loop muted></video></span>
-                        <span style="--i:9"><img class="sds2025" src="/mvc_sds/src/9.jpeg" alt=""></span>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </main>
     <footer>
         <div class="footer-content">
