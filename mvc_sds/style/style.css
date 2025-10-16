@@ -345,3 +345,70 @@ footer {
 .conferencia1 p, .conferencia2 p {
     text-align: justify;
 }
+
+.talleres-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    margin: 100px;
+}
+
+.taller1, .taller2, .taller3 {
+    background-color: #fcfcfc;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.taller1:hover, .taller2:hover, .taller3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.taller1 img, .taller2 img, .taller3 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #23003f;
+}
+
+.taller1 h3, .taller2 h3, .taller3 h3 {
+    color: #cc5200;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    border-left: none;
+}
+
+.taller1 p, .taller2 p, .taller3 p {
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+@media (max-width: 650px) {
+    .talleres-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .taller1, .taller2, .taller3 {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .taller1 img, .taller2 img, .taller3 img {
+        height: 200px;
+    }
+}
