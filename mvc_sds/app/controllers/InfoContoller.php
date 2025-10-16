@@ -2,6 +2,11 @@
 namespace app\controllers;
 
 class InfoController {
+    public function info() {
+        echo $this->view("informacionView", [
+            "title" => "Mi Información",
+        ]);
+    }
 
     private function view($vista, $data = []) {
         extract($data);
