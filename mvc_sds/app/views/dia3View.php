@@ -26,11 +26,12 @@
         </div>
     </nav>
     <main>
-        <h1><?= $descripcion ?></h1>
-        <div class="bienvenida"></div>
-        <div class="conferencia1"></div>
-        <div class="conferencia2"></div>
-        <div class="hackathon"></div>
+        <h1 style="justify-content: center; text-align: center; margin: 40px;"><?= $descripcion ?></h1>
+        <div class="talleres-grid">
+            <div class="taller1">
+                <img src="/mvc_sds/src/torneo.jpeg" alt="">
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer-content">
