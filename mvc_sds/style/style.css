@@ -6,7 +6,8 @@ body{
     padding: 0;
     margin: 0;
     width: 100%;
-    background-color: rgb(197, 127, 255);
+    background-color: #e6f0ff;
+    font-style: italic;
 }
 
 nav {
@@ -218,11 +219,129 @@ footer {
 
 @keyframes gallery {
     0% {
-        /* Ajustar la perspectiva */
         transform: perspective(800px) rotateY(0deg); 
     }
     100% {
-        /* Ajustar la perspectiva */
         transform: perspective(800px) rotateY(360deg);
     }
+}
+
+.hackathon {
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hackathon > p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.hackathon .proyectos-galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.proyecto-item {
+    width: 180px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.proyecto-item img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #7f0099;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.proyecto-item img:hover {
+    transform: scale(1.05);
+    border-color: #c300ff;
+}
+
+.proyecto-item p {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    font-size: 0.9em;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.conferencia1, .conferencia2 {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.conferencia1 h3, .conferencia2 h3 {
+    clear: both;
+    margin-bottom: 20px;
+    color: #cc5200; 
+    border-left: 5px solid #23003f;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.conference-media {
+    margin-bottom: 20px;
+}
+
+.conference-image {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 5px;
+}
+
+.conference-image.img-right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.conference-image.img-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.image-caption {
+    font-size: 0.85em;
+    color: #666;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.conferencia1 .image-caption {
+    float: right;
+    width: 250px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.conferencia2 .image-caption {
+    float: left;
+    width: 250px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.conferencia1::after, .conferencia2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.conferencia1 p, .conferencia2 p {
+    text-align: justify;
 }
