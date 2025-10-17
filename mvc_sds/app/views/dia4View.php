@@ -19,7 +19,7 @@
             <a href="/mvc_sds/public/dia2" class="nav_link">Segundo Día</a>
             <a href="/mvc_sds/public/dia3" class="nav_link">Tercer Día</a>
             <a href="/mvc_sds/public/dia4" class="nav_link">Cuarto Día</a>
-            <a href="" class="nav_link">Quinto Día</a>
+            <a href="/mvc_sds/public/dia5" class="nav_link">Quinto Día</a>
             <a href="" class="nav_link">Mi Información</a>
             <a href="" class="nav_link">Registrar Visita</a>
             <a href="https://github.com/isabeCastillo/SemanaDeSistemas2025.git" class="nav_link">Github</a>
@@ -94,22 +94,23 @@
             <div class="carrusel-column">
                 <div class="carrusel-container">
                     <div class="carrusel">
-                        <span style="--i:1"><img class="sds2025" src="/mvc_sds/src/7.jpeg" alt=""></span>
-                        <span style="--i:2"><video class="sds2025" src="/mvc_sds/src/8.mp4" controls autoplay loop muted></video></span>
-                        <span style="--i:3"><img class="sds2025" src="/mvc_sds/src/11.jpeg" alt=""></span>
-                        <span style="--i:4"><video class="sds2025" src="/mvc_sds/src/10.mp4" controls autoplay loop muted></video></span>
-                        <span style="--i:5"><img class="sds2025" src="/mvc_sds/src/11.jpeg" alt=""></span>
-                        <span style="--i:6"><video class="sds2025" src="/mvc_sds/src/12.mp4" controls autoplay loop muted></video></span>
-                        <span style="--i:7"><img class="sds2025" src="/mvc_sds/src/13.jpeg" alt=""></span>
-                        <span style="--i:8"><img class="sds2025" src="/mvc_sds/src/14.jpeg" alt=""></span>
-                        <span style="--i:9"><img class="sds2025" src="/mvc_sds/src/5.jpeg" alt=""></span>
+                        <span style="--i:1"><img class="sds2025" src="/mvc_sds/src/p1.jpeg" alt=""></span>
+                        <span style="--i:2"><video class="sds2025" src="/mvc_sds/src/p9.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:3"><img class="sds2025" src="/mvc_sds/src/p2.jpeg" alt=""></span>
+                        <span style="--i:4"><video class="sds2025" src="/mvc_sds/src/p10.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:5"><img class="sds2025" src="/mvc_sds/src/p3.jpeg" alt=""></span>
+                        <span style="--i:6"><video class="sds2025" src="/mvc_sds/src/p8.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:7"><img class="sds2025" src="/mvc_sds/src/p4.jpeg" alt=""></span>
+                        <span style="--i:8"><img class="sds2025" src="/mvc_sds/src/p5.jpeg" alt=""></span>
+                        <span style="--i:9"><img class="sds2025" src="/mvc_sds/src/p6.jpeg" alt=""></span>
+                        <span style="--i:9"><img class="sds2025" src="/mvc_sds/src/p7.jpeg" alt=""></span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="bienvenida">
             <div class="intro">
-                <video  src="/mvc_sds/src/recap.mp4" controls autoplay loop muted playsinline></video>
+                <video  src="/mvc_sds/src/p8.mp4" controls autoplay loop muted playsinline></video>
                 <p>Ganador de comelona</p>
             </div>
         </div>
@@ -125,7 +126,7 @@
                 <a href="/mvc_sds/public/dia2">Segundo Día</a>
                 <a href="/mvc_sds/public/dia3">Tercer Día</a>
                 <a href="/mvc_sds/public/dia4">Cuarto Día</a>
-                <a href="">Quinto Día</a>
+                <a href="/mvc_sds/public/dia5">Quinto Día</a>
                 <a href="https://github.com/isabeCastillo/SemanaDeSistemas2025.git">Github</a>
             </div>
             <div class="copyright footer-desarrollador">
