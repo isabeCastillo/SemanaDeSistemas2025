@@ -412,3 +412,39 @@ footer {
         height: 200px;
     }
 }
+.bienvenida {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.intro {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.intro video {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease; 
+}
+
+.intro img:hover {
+    transform: scale(1.02);
+}

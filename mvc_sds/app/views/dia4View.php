@@ -26,9 +26,19 @@
         </div>
     </nav>
     <main>
-        <h1><?= $descripcion ?></h1>
-        <div class="bienvenida"></div>
-        <div class="conferencia1"></div>
+        <h1 style="justify-content: center; text-align: center; margin: 40px;"><?= $descripcion ?></h1>
+        <div class="bienvenida">
+            <div class="intro">
+                <img src="/mvc_sds/src/grupo.jpeg" alt="">
+                <p>Este dia se realizo la tan esperada feria de logros donde se presentaron las distintas obras reañizadas por los estudiantes de la carrera de Sistemas informaticos de los diferentes años</p>
+            </div>
+        </div>
+        <div class="bienvenida">
+            <div class="intro">
+                <video  src="recap" controls autoplay loop muted playsinline></video>
+                <p>Este dia se realizo la tan esperada feria de logros donde se presentaron las distintas obras reañizadas por los estudiantes de la carrera de Sistemas informaticos de los diferentes años</p>
+            </div>
+        </div>
         <div class="conferencia2"></div>
         <div class="hackathon"></div>
     </main>
