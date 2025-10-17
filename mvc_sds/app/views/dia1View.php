@@ -74,35 +74,34 @@
                 La inteligencia artificial, si vemos los patentes con los que ha sido entrenada, es la capacidad de haber aprendido sobre 10 millones de libros. Por cada libro que leemos, nosotros solo retenemos el 10%. La inteligencia artificial almacena el 100% de la información de cada libro.</p>
         </div>
         <div class="hackathon">
-    <h3>Hackathon</h3>
-    <p>Se presentaron exactamente 5 propuestas de diseño para ayudar a solucionar distintas porblematicas tanto educativas como sociales.</p>
-    
-    <div class="proyectos-galeria">
-        <div class="proyecto-item">
-            <img src="/mvc_sds/src/odon.jpeg" alt="Proyecto 1">
-            <p>Sistema de citas odontologicas</p>
-            <p>Premio Segundo lugar</p>
+            <h3>Hackathon</h3>
+            <p>Se presentaron exactamente 5 propuestas de diseño para ayudar a solucionar distintas porblematicas tanto educativas como sociales.</p>
+            <div class="proyectos-galeria">
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/odon.jpeg" alt="Proyecto 1">
+                    <p>Sistema de citas odontologicas</p>
+                    <p>Premio Segundo lugar</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/asis.jpeg" alt="Proyecto 2">
+                    <p>Gestion de asistencia para asistentes a confencias</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/bin.jpeg" alt="Proyecto 3">
+                    <p>Bingo</p>
+                    <p>Premio Primer lugar</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/vete.jpeg" alt="Proyecto 4">
+                    <p>Control de veterinaria</p>
+                    <p>Premio Tercer lugar</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/notas.jpeg" alt="Proyecto 5">
+                    <p>Sistema de control de notas de estudiantes</p>
+                </div>
+            </div>
         </div>
-        <div class="proyecto-item">
-            <img src="/mvc_sds/src/asis.jpeg" alt="Proyecto 2">
-            <p>Gestion de asistencia para asistentes a confencias</p>
-        </div>
-        <div class="proyecto-item">
-            <img src="/mvc_sds/src/bin.jpeg" alt="Proyecto 3">
-            <p>Bingo</p>
-            <p>Premio Primer lugar</p>
-        </div>
-        <div class="proyecto-item">
-            <img src="/mvc_sds/src/vete.jpeg" alt="Proyecto 4">
-            <p>Control de veterinaria</p>
-            <p>Premio Tercer lugar</p>
-        </div>
-        <div class="proyecto-item">
-            <img src="/mvc_sds/src/notas.jpeg" alt="Proyecto 5">
-            <p>Sistema de control de notas de estudiantes</p>
-        </div>
-    </div>
-</div>
     </main>
     <footer>
         <div class="footer-content">

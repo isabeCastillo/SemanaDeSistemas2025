@@ -35,12 +35,84 @@
         </div>
         <div class="bienvenida">
             <div class="intro">
-                <video  src="recap" controls autoplay loop muted playsinline></video>
-                <p>Este dia se realizo la tan esperada feria de logros donde se presentaron las distintas obras reañizadas por los estudiantes de la carrera de Sistemas informaticos de los diferentes años</p>
+                <video  src="/mvc_sds/src/recap.mp4" controls autoplay loop muted playsinline></video>
+                <p>Desde tempranas horas, nos entregamos con entusiasmo a preparar cada detalle para la feria de logros. Apoyamos en la decoración con creatividad y cuidado, organizamos los espacios para que cada presentación brillara, y colaboramos en todo lo necesario para que el ambiente reflejara el esfuerzo y dedicación de nuestra comunidad. Fue un día de trabajo en equipo, alegría y compromiso compartido.</p>
             </div>
         </div>
-        <div class="conferencia2"></div>
-        <div class="hackathon"></div>
+        <div class="hackathon">
+            <h3>Feria de logros</h3>
+            <p>Proyectos presentados en la feria de logros y los ganadores</p>
+            <div class="proyectos-galeria">
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/bingo.jpeg" alt="Proyecto">
+                    <p>Bingo</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/cajero.jpeg" alt="Proyecto">
+                    <p>C# Bank</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/farmaLab.jpeg" alt="Proyecto">
+                    <p>FarmaLab Proyecto Innovador</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/Innova.jpeg" alt="Proyecto">
+                    <p>Innova Rent</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/parqueoAuto.jpeg" alt="Proyecto">
+                    <p>Parqueo automatico con arduino y aplicacion movil</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/radar.jpeg" alt="Proyecto">
+                    <p>El radar de moises</p>
+                    <p>Ganador elegido por los ingenieros</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/siget.jpeg" alt="Proyecto">
+                    <p>Sistema de gestion de planillas SIGET</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/tsi.jpeg" alt="Proyecto">
+                    <p>Blogs de TSI</p>
+                    <p>Ganador elegido por votos</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/atm.jpeg" alt="Proyecto">
+                    <p>Sistema de cajero automatico</p>
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/parqueoAuto.jpeg" alt="Proyecto">
+                    <p>Parqueo automatico con arduino y aplicacion movil</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-content-wrapper">
+            <div class="text-column">
+                <p>Una de las dinámicas más divertidas y esperadas del día fue la comelona de pupusas, donde los participantes pusieron a prueba su apetito y velocidad. El reto era claro: comer la mayor cantidad de pupusas posibles en solo 10 minutos. Entre risas, aplausos y mucho entusiasmo, los competidores se enfrentaron al delicioso desafío, demostrando valentía y buen humor en cada bocado. Fue un momento lleno de sabor, energía y espíritu de celebración que dejó a todos con el corazón contento… ¡y el estómago también!</p>
+            </div>
+            <div class="carrusel-column">
+                <div class="carrusel-container">
+                    <div class="carrusel">
+                        <span style="--i:1"><img class="sds2025" src="/mvc_sds/src/7.jpeg" alt=""></span>
+                        <span style="--i:2"><video class="sds2025" src="/mvc_sds/src/8.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:3"><img class="sds2025" src="/mvc_sds/src/11.jpeg" alt=""></span>
+                        <span style="--i:4"><video class="sds2025" src="/mvc_sds/src/10.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:5"><img class="sds2025" src="/mvc_sds/src/11.jpeg" alt=""></span>
+                        <span style="--i:6"><video class="sds2025" src="/mvc_sds/src/12.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:7"><img class="sds2025" src="/mvc_sds/src/13.jpeg" alt=""></span>
+                        <span style="--i:8"><img class="sds2025" src="/mvc_sds/src/14.jpeg" alt=""></span>
+                        <span style="--i:9"><img class="sds2025" src="/mvc_sds/src/5.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bienvenida">
+            <div class="intro">
+                <video  src="/mvc_sds/src/recap.mp4" controls autoplay loop muted playsinline></video>
+                <p>Ganador de comelona</p>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer-content">
