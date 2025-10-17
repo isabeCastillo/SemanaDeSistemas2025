@@ -42,7 +42,7 @@
                         <span style="--i:5"><img class="sds2025" src="/mvc_sds/src/5.jpeg" alt=""></span>
                         <span style="--i:6"><img class="sds2025" src="/mvc_sds/src/6.jpeg" alt=""></span>
                         <span style="--i:7"><img class="sds2025" src="/mvc_sds/src/7.jpeg" alt=""></span>
-                        <span style="--i:8"><video class="sds2025" src="/mvc_sds/src/8.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:8"><video class="sds2025" src="/mvc_sds/src/8.mp4" controls autoplay loop muted playsinline></video></span>
                         <span style="--i:9"><img class="sds2025" src="/mvc_sds/src/9.jpeg" alt=""></span>
                     </div>
                 </div>

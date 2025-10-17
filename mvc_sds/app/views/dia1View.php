@@ -35,11 +35,11 @@
                 <div class="carrusel-container">
                     <div class="carrusel">
                         <span style="--i:1"><img class="sds2025" src="/mvc_sds/src/7.jpeg" alt=""></span>
-                        <span style="--i:2"><video class="sds2025" src="/mvc_sds/src/8.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:2"><video class="sds2025" src="/mvc_sds/src/8.mp4" controls autoplay loop muted playsinline></video></span>
                         <span style="--i:3"><img class="sds2025" src="/mvc_sds/src/11.jpeg" alt=""></span>
-                        <span style="--i:4"><video class="sds2025" src="/mvc_sds/src/10.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:4"><video class="sds2025" src="/mvc_sds/src/10.mp4" controls autoplay loop muted playsinline></video></span>
                         <span style="--i:5"><img class="sds2025" src="/mvc_sds/src/11.jpeg" alt=""></span>
-                        <span style="--i:6"><video class="sds2025" src="/mvc_sds/src/12.mp4" controls autoplay loop muted></video></span>
+                        <span style="--i:6"><video class="sds2025" src="/mvc_sds/src/12.mp4" controls autoplay loop muted playsinline></video></span>
                         <span style="--i:7"><img class="sds2025" src="/mvc_sds/src/13.jpeg" alt=""></span>
                         <span style="--i:8"><img class="sds2025" src="/mvc_sds/src/14.jpeg" alt=""></span>
                         <span style="--i:9"><img class="sds2025" src="/mvc_sds/src/5.jpeg" alt=""></span>

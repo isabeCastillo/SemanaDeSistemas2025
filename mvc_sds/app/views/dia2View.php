@@ -39,7 +39,7 @@
             <p>Este dio inicio a las 10 am y fue impartida por el Ing. Gabriel Castillo</p>
         </div>
         <div class="taller3">
-            <img src="/mvc_sds/src/5.jpeg" alt="">
+            <video  src="/mvc_sds/src/pone3.mp4" controls autoplay loop muted playsinline></video>
             <h3>IA multimodal</h3>
             <p>Este dio inicio a las 3 pm y fue impartida por el Msc. Jose Salmeron</p>
         </div>
