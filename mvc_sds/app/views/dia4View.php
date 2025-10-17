@@ -33,9 +33,9 @@
                 <p>Este dia se realizo la tan esperada feria de logros donde se presentaron las distintas obras reañizadas por los estudiantes de la carrera de Sistemas informaticos de los diferentes años</p>
             </div>
         </div>
-        <div class="bienvenida">
-            <div class="intro">
-                <video  src="/mvc_sds/src/recap.mp4" controls autoplay loop muted playsinline></video>
+        <div class="bienvenida"> 
+            <div class="intro introvideo">
+                <video class="video-element" src="/mvc_sds/src/recap.mp4" controls autoplay loop muted playsinline></video>
                 <p>Desde tempranas horas, nos entregamos con entusiasmo a preparar cada detalle para la feria de logros. Apoyamos en la decoración con creatividad y cuidado, organizamos los espacios para que cada presentación brillara, y colaboramos en todo lo necesario para que el ambiente reflejara el esfuerzo y dedicación de nuestra comunidad. Fue un día de trabajo en equipo, alegría y compromiso compartido.</p>
             </div>
         </div>
