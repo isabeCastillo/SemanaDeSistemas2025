@@ -20,7 +20,7 @@
             <a href="/mvc_sds/public/dia3" class="nav_link">Tercer Día</a>
             <a href="/mvc_sds/public/dia4" class="nav_link">Cuarto Día</a>
             <a href="/mvc_sds/public/dia5" class="nav_link">Quinto Día</a>
-            <a href="" class="nav_link">Mi Información</a>
+            <a href="/mvc_sds/public/info" class="nav_link">Mi Información</a>
             <a href="" class="nav_link">Registrar Visita</a>
             <a href="https://github.com/isabeCastillo/SemanaDeSistemas2025.git" class="nav_link">Github</a>
         </div>

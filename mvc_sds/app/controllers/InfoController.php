@@ -10,7 +10,7 @@ class InfoController {
 
     private function view($vista, $data = []) {
         extract($data);
-        $ruta = "../app/view/$vista.php";
+        $ruta = "../app/views/$vista.php";
 
         if (file_exists($ruta)) {
             ob_start();
@@ -22,3 +22,4 @@ class InfoController {
         }
     }
 }
+?>

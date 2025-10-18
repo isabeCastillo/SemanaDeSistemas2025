@@ -12,7 +12,7 @@ Route::get("/dia3", [DiaController::class, "dia3"]);
 Route::get("/dia4", [DiaController::class, "dia4"]);
 Route::get("/dia5", [DiaController::class, "dia5"]);
 
-Route::get("/mi-informacion", [InfoController::class, "index"]);
+Route::get("/info", [InfoController::class, "info"]);
 
 Route::get("/visitas", [InfoController::class, "formVisita"]);
 Route::post("/registrar-visita", [InfoController::class, "registrarVisita"]);

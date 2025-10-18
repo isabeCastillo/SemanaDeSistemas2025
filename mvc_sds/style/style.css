@@ -447,3 +447,81 @@ footer {
 .intro img:hover {
     transform: scale(1.02);
 }
+
+.info-main {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.info-section h1 {
+    text-align: center;
+    color: #23003f;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    border-bottom: 3px solid #cc5200;
+    display: inline-block;
+    padding-bottom: 8px;
+    font-style: normal;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+    background-color: #f8f8ff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.perfil-foto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #cc5200;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.perfil-foto:hover {
+    transform: scale(1.05) rotate(2deg);
+}
+
+.info-datos {
+    flex-grow: 1;
+    line-height: 1.6;
+    font-style: normal;
+}
+
+.info-datos p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.info-datos strong {
+    color: #23003f;
+}
+
+.info-descripcion {
+    padding: 15px;
+    background-color: #f1f6ff;
+    border-left: 5px solid #23003f;
+    border-radius: 4px;
+    font-style: italic;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.info-descripcion p {
+    margin: 10px 0;
+    text-align: justify;
+}
