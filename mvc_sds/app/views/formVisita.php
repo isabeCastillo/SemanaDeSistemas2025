@@ -25,30 +25,49 @@
             <a href="https://github.com/isabeCastillo/SemanaDeSistemas2025.git" class="nav_link">Github</a>
         </div>
     </nav>
-    <main>
-        <div class="main-content-wrapper">
-            <div class="text-column">
-                <h1><?= $mensaje ?></h1>
-                <p>Blog de la <strong>Semana de Sistemas 2025</strong>, donde estaremos comentando las ponencias, los talleres y actividades recreativas de los 5 días de este evento magnifico que nos deja muchos aprendizajes nuevos.</p>
-                <p>Conoce las diferentes secciones del evento haciendo clic en los enlaces de arriba.</p>
-            </div>
-            <div class="carrusel-column">
-                <div class="carrusel-container">
-                    <div class="carrusel">
-                        <span style="--i:1"><img class="sds2025" src="/mvc_sds/src/1.jpeg" alt=""></span>
-                        <span style="--i:2"><img class="sds2025" src="/mvc_sds/src/2.jpeg" alt=""></span>
-                        <span style="--i:3"><img class="sds2025" src="/mvc_sds/src/3.jpeg" alt=""></span>
-                        <span style="--i:4"><img class="sds2025" src="/mvc_sds/src/4.jpeg" alt=""></span>
-                        <span style="--i:5"><img class="sds2025" src="/mvc_sds/src/5.jpeg" alt=""></span>
-                        <span style="--i:6"><img class="sds2025" src="/mvc_sds/src/6.jpeg" alt=""></span>
-                        <span style="--i:7"><img class="sds2025" src="/mvc_sds/src/7.jpeg" alt=""></span>
-                        <span style="--i:8"><video class="sds2025" src="/mvc_sds/src/8.mp4" controls autoplay loop muted playsinline></video></span>
-                        <span style="--i:9"><img class="sds2025" src="/mvc_sds/src/9.jpeg" alt=""></span>
+    <main class="form-visita-main">
+        <section class="form-visita-section">
+            <h1>Registro de Visita</h1>
+            <p>Gracias por visitar el Blog de la Semana de Sistemas 2025. Por favor completa tus datos:</p>
+
+            <form action="/mvc_sds/public/visitas/registrar" method="POST" class="form-visita">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí..." required></textarea>
+
+                <button type="submit" class="btn-enviar">Enviar Visita</button>
+            </form>
+
+            <?php if (isset($_GET['ok'])): ?>
+                <p class="mensaje-exito">¡Gracias por registrarte! Tu visita ha sido guardada correctamente.</p>
+            <?php endif; ?>
+        </section>
+
+        <hr>
+
+        <section class="lista-visitas">
+            <h2>Últimos comentarios registrados</h2>
+
+            <?php if (!empty($visitas)): ?>
+                <?php foreach ($visitas as $v): ?>
+                    <div class="tarjeta-visita">
+                        <h3><?= htmlspecialchars($v['nombre']) ?></h3>
+                        <p><strong>Correo:</strong> <?= htmlspecialchars($v['correo']) ?></p>
+                        <p><strong>Comentario:</strong> <?= htmlspecialchars($v['comentario']) ?></p>
+                        <p class="fecha-visita"><em>Fecha: <?= htmlspecialchars($v['fecha']) ?></em></p>
                     </div>
-                </div>
-            </div>
-        </div>
+                <?php endforeach; ?>
+            <?php else: ?>
+                <p>No hay visitas registradas aún.</p>
+            <?php endif; ?>
+        </section>
     </main>
+
     <footer>
         <div class="footer-content">
             <div class="footer-logo">

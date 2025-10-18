@@ -15,6 +15,7 @@ Route::get("/dia5", [DiaController::class, "dia5"]);
 Route::get("/info", [InfoController::class, "info"]);
 
 Route::get("/visitas", [InfoController::class, "formVisita"]);
-Route::post("/registrar-visita", [InfoController::class, "registrarVisita"]);
+Route::post("/visitas/registrar", [InfoController::class, "registrarVisita"]);
 
 Route::dispatch();
+?>
