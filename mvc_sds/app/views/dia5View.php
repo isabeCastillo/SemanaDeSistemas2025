@@ -33,34 +33,44 @@
             <p>Una dinámica que combinó emoción, risas y compañerismo. El juego del bingo reunió a estudiantes en un ambiente de sana convivencia, donde cada número cantado despertaba alegría y expectativa. Más que una competencia, fue una oportunidad para compartir, relajarse y disfrutar juntos. Entre aplausos y momentos divertidos, el bingo se convirtió en un espacio de conexión y entretenimiento que fortaleció los lazos entre todos los participantes.</p>
             <div class="proyectos-galeria">
                 <div class="proyecto-item">
-                    <img src="/mvc_sds/src/bingo.jpeg" alt="Juego">
+                    <img src="/mvc_sds/src/inicioB.jpg" alt="Juego">
                 </div>
                 <div class="proyecto-item">
-                    <img src="/mvc_sds/src/cajero.jpeg" alt="Juego">
+                    <img src="/mvc_sds/src/creditos.jpg" alt="Juego">
                 </div>
                 <div class="proyecto-item">
-                    <img src="/mvc_sds/src/farmaLab.jpeg" alt="Juego">
+                    <img src="/mvc_sds/src/1.1juga.jpg" alt="Juego">
                 </div>
                 <div class="proyecto-item">
-                    <img src="/mvc_sds/src/Innova.jpeg" alt="Juego">
+                    <img src="/mvc_sds/src/jugada.jpg" alt="Juego">
                 </div>
                 <div class="proyecto-item">
-                    <img src="/mvc_sds/src/parqueoAuto.jpeg" alt="Juego">
+                    <img src="/mvc_sds/src/carton1.jpg" alt="Juego">
+                </div>
+            </div>
+        </div>
+        <div class="bingo">
+            <div class="hackathon">
+            <h3>Ganadores</h3>
+            <p>Dentro de los ganadores estan aquellos que ganaron un obsequio de parte de los patrocinadores</p>
+            <div class="proyectos-galeria">
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/primerganaB.jpg" alt="Juego">
                 </div>
                 <div class="proyecto-item">
-                    <img src="/mvc_sds/src/radar.jpeg" alt="Juego">
+                    <img src="/mvc_sds/src/ac1.jpg" alt="Juego">
                 </div>
                 <div class="proyecto-item">
-                    <img src="/mvc_sds/src/siget.jpeg" alt="Juego">
+                    <img src="/mvc_sds/src/ac2.jpg" alt="Juego">
                 </div>
                 <div class="proyecto-item">
-                    <img src="/mvc_sds/src/tsi.jpeg" alt="Juego">
+                    <img src="/mvc_sds/src/acop.jpg" alt="Juego">
                 </div>
                 <div class="proyecto-item">
-                    <img src="/mvc_sds/src/atm.jpeg" alt="Juego">
+                    <img src="/mvc_sds/src/g1.jpg" alt="Juego">
                 </div>
                 <div class="proyecto-item">
-                    <img src="/mvc_sds/src/parqueoAuto.jpeg" alt="Juego">
+                    <img src="/mvc_sds/src/preAcop.jpg" alt="Juego">
                 </div>
             </div>
         </div>
