@@ -26,7 +26,7 @@
         </div>
     </nav>
     <main>
-        <h1><?= $descripcion ?></h1>
+        <h1 style="justify-content: center; text-align: center; margin: 40px;"><?= $descripcion ?></h1>
         <div class="bingo">
             <div class="hackathon">
             <h3>Bingo</h3>
@@ -49,33 +49,47 @@
                 </div>
             </div>
         </div>
-        <div class="bingo">
+        <div class="ganadoresbingo">
             <div class="hackathon">
-            <h3>Ganadores</h3>
-            <p>Dentro de los ganadores estan aquellos que ganaron un obsequio de parte de los patrocinadores</p>
-            <div class="proyectos-galeria">
-                <div class="proyecto-item">
-                    <img src="/mvc_sds/src/primerganaB.jpg" alt="Juego">
-                </div>
-                <div class="proyecto-item">
-                    <img src="/mvc_sds/src/ac1.jpg" alt="Juego">
-                </div>
-                <div class="proyecto-item">
-                    <img src="/mvc_sds/src/ac2.jpg" alt="Juego">
-                </div>
-                <div class="proyecto-item">
-                    <img src="/mvc_sds/src/acop.jpg" alt="Juego">
-                </div>
-                <div class="proyecto-item">
-                    <img src="/mvc_sds/src/g1.jpg" alt="Juego">
-                </div>
-                <div class="proyecto-item">
-                    <img src="/mvc_sds/src/preAcop.jpg" alt="Juego">
+                <h3>Ganadores</h3>
+                <p>Dentro de los ganadores estan aquellos que ganaron un obsequio de parte de los patrocinadores</p>
+                <div class="proyectos-galeria">
+                    <div class="proyecto-item">
+                        <img src="/mvc_sds/src/primerganaB.jpg" alt="Juego">
+                    </div>
+                    <div class="proyecto-item">
+                        <img src="/mvc_sds/src/ac2.jpg" alt="Juego">
+                    </div>
+                    <div class="proyecto-item">
+                        <img src="/mvc_sds/src/acop.jpg" alt="Juego">
+                    </div>
+                    <div class="proyecto-item">
+                        <img src="/mvc_sds/src/g1.jpg" alt="Juego">
+                    </div>
+                    <div class="proyecto-item">
+                        <img src="/mvc_sds/src/preAcop.jpg" alt="Juego">
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="hackathon">
+            <h3>Torneo de Clash Royale</h3>
+            <p>¡La emoción estuvo al máximo! En este torneo, los estudiantes se enfrentaron en épicas batallas estratégicas, demostrando su habilidad, rapidez mental y dominio del juego. Cada partida fue una mezcla de tensión y adrenalina, mientras los competidores luchaban por coronarse campeones del campo de batalla virtual. Más que un juego, fue una experiencia de convivencia, risas y sana competencia, donde el respeto y el entusiasmo marcaron cada ronda. ¡Un verdadero choque de talentos que dejó huella en la feria de logros!</p>
+            <div class="proyectos-galeria">
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/clas2.jpeg" alt="Juego">
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/clas1.jpeg" alt="Juego">
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/clas3.jpeg" alt="Juego">
+                </div>
+                <div class="proyecto-item">
+                    <img src="/mvc_sds/src/clas4.jpeg" alt="Juego">
+                </div>
+            </div>
         </div>
-        <div class="torneo"></div>
     </main>
     <footer>
         <div class="footer-content">
